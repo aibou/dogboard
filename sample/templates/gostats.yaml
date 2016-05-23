@@ -1,0 +1,10 @@
+- definition:
+    viz: timeseries
+    requests: 
+      - q: hoge
+        aggregator: avg
+        conditional_formats: []
+        type: line
+  title: hoge
+            
+      

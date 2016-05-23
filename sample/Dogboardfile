@@ -1,0 +1,10 @@
+# -*- mode: ruby -*-
+
+timebased 123456 do
+  title "hoge-api"
+  description "timebased-board for hoge-api"
+  graphs do
+    include_template name="gostats", variables={hoge: "hoge"}
+  end
+end
+
